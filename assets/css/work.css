@@ -1,0 +1,13 @@
+.work-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.work-content h2 {
+    margin-bottom: 1rem;
+}
+.work-content p {
+    padding-bottom: 5rem;
+}

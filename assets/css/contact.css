@@ -1,0 +1,61 @@
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    display: flex;
+    flex-flow: row wrap;
+    border: none;
+    gap: var(--gap);
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.form-group input, .form-group textarea {
+    font-size: 3rem;
+    border: none;
+    background: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    outline: none;
+}
+.form-group input:focus, .form-group textarea:focus {
+    box-shadow: 0rem 0rem 1rem 0.2rem var(--secondary-color);
+}
+
+.form-full-width {
+    width: 100%;
+    flex: 1 1 100% ;
+}
+
+.form-group button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    color: var(--primary-color);
+    background: var(--white-color);
+    /* border-color: var(--primary-color); */
+}
+
+.form-group ::placeholder {
+    color: var(--light-gray-color);
+}

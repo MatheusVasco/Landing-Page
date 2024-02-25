@@ -1,0 +1,13 @@
+.top3-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.top3-content h2 {
+    margin-bottom: 1rem;
+}
+.top3-content p {
+    padding-bottom: 5rem;
+}
